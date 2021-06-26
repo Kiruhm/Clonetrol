@@ -54,6 +54,7 @@
             style="@style/EditTextLayoutAppStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/eurostile_oblique"
             android:hint="@string/username"
             android:textCursorDrawable="@drawable/text_cursor_custom" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -80,6 +81,7 @@
             style="@style/EditTextLayoutAppStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/eurostile_oblique"
             android:hint="@string/password"
             android:inputType="textPassword"
             android:textCursorDrawable="@drawable/text_cursor_custom" />
@@ -89,6 +91,7 @@
         android:id="@+id/loginStatusTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/eurostile_bold"
         android:text="@string/log_in"
         android:textAlignment="center"
         android:textColor="?attr/colorPrimary"

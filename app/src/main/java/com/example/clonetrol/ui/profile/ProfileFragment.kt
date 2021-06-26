@@ -1,5 +1,6 @@
 package com.example.clonetrol.ui.profile
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
 import com.example.clonetrol.databinding.FragmentProfileBinding
+import com.example.clonetrol.ui.login.LoginActivity
 
 class ProfileFragment : Fragment() {
 
@@ -26,8 +28,12 @@ class ProfileFragment : Fragment() {
         val root: View = binding.root
 
         binding.textView5.setOnClickListener {
-            activity?.finish()
-            activity?.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+            activity?.let {
+                it.startActivity(Intent(it, LoginActivity::class.java))
+                it.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+                it.finish()
+
+            }
         }
 
         return root
