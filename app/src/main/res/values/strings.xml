@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Clonetrol</string>
+    <string name="title_home">Mensajes</string>
+    <string name="title_dashboard">Recursos</string>
+    <string name="title_notifications">Perfil</string>
+
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="log_in">Acceder</string>
+    <string name="register">Registrarse</string>
+
+    <string name="login_1">Tomando datos...</string>
+    <string name="login_2">Realizando análisis quinético...</string>
+    <string name="login_3">Análisis finalizado. Accediendo...</string>
+
+    <string name="correct_description">%1$s funciona correctamente acorde a sus funciones elementales por lo que no requiere de un mantenimiento exhaustivo.
+        \n\nSi requiere de una mayor información consulte pulsando el botón de "Sincronizar con recurso"</string>
+    <string name="warning_description">Se ha detectado un fallo en la unidad %1$s, se recomienda que lleve a su unidad al centro de clonación o taller más cercano para practicarle un examen de diagnóstico.
+        \n\nSi requiere de una mayor información consulte pulsando el botón de "Sincronizar con recurso", no obstante es posible que debido al fallo detectado esto no sea posible, si esto ocurre, consulte con su proveedor si requiere saber de su localización.</string>
+    <string name="alert_description">Se ha detectado un fallo importante en la unidad %1$s, se recomienda que lleve a su unidad al centro de clonación o taller más cercano con la mayor brevedad posible evitando realizar enlaces quinéticos con este.
+        \n\nSi requiere de una mayor información consulte pulsando el botón de "Sincronizar con recurso", sin embargo se recomienda encarecidamente que no lo haga, ya que en el peor de los casos, podría provocar más daños a esta unidad.
+        \n\nLe recomendamos que contacte con su proveedor para que recojan a su unidad lo antes posible.
+    </string>
+
+</resources>
