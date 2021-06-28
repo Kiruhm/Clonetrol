@@ -13,6 +13,7 @@
     <color name="appBlueLight">#7FB7FD</color>
     <color name="appBlueLighter">#D2E6FF</color>
     <color name="appGrey">#E3E3E3</color>
+    <color name="logOutRed">#9ACA0000</color>
     <color name="warningColor">#FFCC00</color>
     <color name="alertColor">#CC3300</color>
 

@@ -27,7 +27,7 @@ class ProfileFragment : Fragment() {
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        binding.textView5.setOnClickListener {
+        binding.logOutLayout.setOnClickListener {
             activity?.let {
                 it.startActivity(Intent(it, LoginActivity::class.java))
                 it.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
