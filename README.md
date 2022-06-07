@@ -1,2 +1,2 @@
 # Clonetrol
- Example application for IPO subject's final proyect.
+ Example application for IPO subject's final project.
